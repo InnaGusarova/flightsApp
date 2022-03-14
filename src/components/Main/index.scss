@@ -1,0 +1,150 @@
+.main {
+
+    &__card-flight {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    &__wrapper{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__button {
+
+        width: 190px;
+        height: 40px;
+        border: 1px solid #0c73fead;
+        background-color: #fff;
+        color: #0c73fead;
+        border-radius: 10px;
+
+        font-size: 14px;
+        font-weight: 700;
+
+        cursor: pointer;
+    
+
+        &:hover {
+            background-color: #0c73fead;
+            color: #fff;
+        }
+    }
+}
+.card-flight {
+
+    &__header {
+
+        box-sizing: border-box;
+        padding: 5px 10px;
+        width: 100%;
+        height: 50px;
+        background-color: #0c73fead;
+    }
+
+    &__button {
+
+        width: 100%;
+        border: none;
+        height: 50px;
+        background-color: #ff6f32c7;
+        color: #fff;
+
+        font-size: 14px;
+        font-weight: 700;
+
+        cursor: pointer;
+    }
+
+    &__text {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        font-size: 18px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+
+    &__time {
+
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    &__time-dutation {
+
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+
+    &__time_transfer-line {
+
+        border-bottom: 1px solid #00000073;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    &__time_transfer {
+
+        width: 100px;
+        text-align: center;
+        position: absolute;
+        left: 43%;
+        top: -8px;
+        background-color: white;
+        color: #ff6f32c7;
+    }
+}
+
+.header {
+
+    &__text {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: #fff;
+        font-size: 22px;
+    }
+    &__subscribtion {
+
+        font-size: 18px;
+    }
+}
+
+
+.blu-text {
+
+    color: #0c73fead;
+    padding: 0 8px;
+}
+
+.grey-line {
+
+    border-bottom: 1px solid #80808059;
+}
+
+.blue-line {
+
+    border-bottom: 2px solid #0c73fead;
+}
+
+.margin-top {
+
+    margin-top: 10px;
+}
